@@ -1,0 +1,74 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.78vw;
+  align-items: center;
+  box-shadow: 0vw 0vw 1.04vw #EA580C inset;
+}
+
+.Nav-part-1 h1 {
+  font-size: 2rem;
+}
+
+.Nav-part-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.6vw;
+}
+
+.Nav-part-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.Nav-part-2 a {
+  position: relative;
+  color: black; /* Text color */
+  text-decoration: none; /* No default underline */
+  font-size: 1.2rem;
+}
+/* button */
+
+button{
+  background-color: #EA580C; /* Strong red color */
+  color: #fff;
+  padding: 1vw 2vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 1vw;
+  cursor: pointer;
+  box-shadow: 0 0.8vw 1vw rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+}
+button:hover{
+  background-color: #b71c1c; /* Darker red on hover */
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.98); /* Slight shrink on click for a powerful press effect */
+  box-shadow: 0 5px 0.5vw rgba(0, 0, 0, 0.2);
+}
+
+.Nav-part-2 a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.16vw;
+  width: 0;
+  height: 0.16vw; /* Thickness of the underline */
+  background-color: #EA580C; /* Underline color */
+  transition: width 0.3s ease; /* Animation duration and easing */
+}
+
+a:focus {
+  color: #EA580C;
+}
+
+.Nav-part-2 a:hover::after,
+a:focus::after {
+  width: 100%; /* Expand underline to full width */
+}

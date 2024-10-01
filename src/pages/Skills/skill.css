@@ -1,0 +1,86 @@
+.skill-section {
+  display: flex;
+  padding-top: 5.21vw; /* 100px = 5.21vw */
+}
+
+.skill-part-1 {
+  width: 50%; /* No need to convert percentage */
+}
+
+.skill-part-2 {
+  width: 50%; /* No need to convert percentage */
+  padding: 0 1.04vw; /* 20px = 1.04vw */
+}
+
+.skills {
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2.5vw; /* 48px = 2.5vw */
+  margin-bottom: 1.04vw; /* 20px = 1.04vw */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.04vw; /* 20px = 1.04vw */
+}
+
+.skill-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0.63vw; /* 12px = 0.63vw */
+  width: 20vw; /* 220px = 11.46vw */
+  height: 5vw;
+  border-radius: 0.52vw; /* 10px = 0.52vw */
+  box-shadow: 0 0.21vw 0.42vw rgba(0, 0, 0, 0.1); /* 4px = 0.21vw, 8px = 0.42vw */
+  border: 0.1vw solid #eaeaea; /* 2px = 0.1vw */
+}
+
+.skill-box img {
+  width: 2.08vw; /* 40px = 2.08vw */
+  height: 2.08vw; /* 40px = 2.08vw */
+}
+
+.skill-box p {
+  font-size: 0.99vw; /* 19px = 0.99vw */
+  font-weight: bold;
+  color: #333;
+  margin-left: 0.63vw; /* 12px = 0.63vw */
+}
+
+.html { background-color: #88D1C1; }
+.css { background-color: #FFD166; }
+.cpp { background-color: #FFD166; }
+.react { background-color: #FFB6B9; }
+.java { background-color: #FFB6B9; }
+.angular { background-color: #96C7FF; }
+.ios { background-color: #B4E197; }
+.app-dev { background-color: #D4A5FF; }
+
+.skill-part-2 .range-val {
+  width: 100%; /* No need to convert */
+  height: 1.04vw; /* 20px = 1.04vw */
+  margin:0.40vw; /* 10px = 0.52vw */
+  font-size: 1.25vw; /* 24px = 1.25vw */
+  display: flex;
+  justify-content: space-between;
+}
+
+.range-slide{
+  background-color: red;
+  height: 1.04vw;
+  border: none;
+ 
+
+}
+.range-bar{
+  border: 1px solid;
+  margin: 10px 10px;
+  border-radius: 5px;
+  background-color: #c6c5c5;
+}

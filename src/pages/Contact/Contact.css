@@ -1,0 +1,36 @@
+.Form-container{
+ height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Form-container form{
+  display: flex;
+  flex-direction: column;
+  
+}
+.Name-Email{
+  display: flex;
+  gap: 20px;
+}
+.Form-container form p{
+  font-size: 22px;
+}
+
+.Form-container form input,textarea{
+  margin: 15px 0px;
+  padding: 10px;
+  font-size: 22px;
+  resize: none;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #EA580C;
+}
+.contact-btn{
+  display: flex;
+  justify-content: center;
+}
+.contact-btn button{
+  background-color: aqua;
+  color: #EA580C;
+}
